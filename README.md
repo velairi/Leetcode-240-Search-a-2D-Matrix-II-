@@ -2,6 +2,7 @@
 
 https://leetcode.com/problems/search-a-2d-matrix-ii/
 
+```
 func searchMatrix(_ matrix: [[Int]], _ target: Int) -> Bool {
     var rowIndex = matrix.count - 1
     var columnIndex = 0
@@ -16,3 +17,4 @@ func searchMatrix(_ matrix: [[Int]], _ target: Int) -> Bool {
     }
     return false
 }
+```
